@@ -4,7 +4,7 @@ body {
 }
 
 #logo {
-    translate: scale(0.5);
+    translate: scale(3);
 }
 #board {
     height: 540px;
