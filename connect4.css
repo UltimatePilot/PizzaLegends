@@ -3,6 +3,9 @@ body {
     text-align: center;
 }
 
+#logo {
+    translate: scale(0.5);
+}
 #board {
     height: 540px;
     width: 630px;
