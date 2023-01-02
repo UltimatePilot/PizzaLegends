@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Feedback</title>
+    <link rel="shortcut icon" type="image/png" href="./Connect4_logo_icon-spaced.png">
+    <link rel="stylesheet" href="./feedback.css">
+</head>
+
+<body>
+    <img id="logo" src="Connect4_logo_regular.png" alt="Connect 4" style="width: 799px;height: 265px">
+    <h1>Please take the time to fill out this short form.</h1>
+    <form action="https://formspree.io/f/myyayzyz" method="POST">
+        <br>
+        <br>
+        <label>What did you like about the game?</label>
+        <br>
+        <textarea name="Liked" rows="10" required></textarea>
+        <br>
+        <br>
+        <label>What did you dislike about the game?</label>
+        <br>
+        <textarea name="Disliked" rows="10" required></textarea>
+        <br>
+        <br>
+        <label>Rate this game.</label>
+        <br>
+        <select name="Star Rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3" selected>3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <h2>Ready to play more? <a href="./">Click here!</a></h2>
+</body>
+
+</html>
