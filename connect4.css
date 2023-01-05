@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-image: "./background.jpeg";
+    background-image: "./background.jpeg" no-repeat center center fixed;
 }
 hr {
     width: 500px;    
